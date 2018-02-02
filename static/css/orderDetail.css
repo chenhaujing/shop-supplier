@@ -1,0 +1,36 @@
+#orders {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#orders > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.orderDetail_row > div > .form-horizontal > div > label {
+    padding: 0 !important;
+    margin-right: 10px;
+    text-align: right !important;
+
+}
+
+.orderDetail_row > div > .form-horizontal > div > div {
+    padding: 0;
+}
+
+.orderDetail_row > div > .form-horizontal > div > div > span {
+    padding: 0;
+    line-height: 20px;
+}
+
+.orderDetail > span {
+    font-size: 16px;
+}
+
+.orderDetail > .table.table-bordered.table-hover > tbody > tr > td > img:first-child {
+    width: 50px !important;
+}
+
+.form-horizontal .control-label {
+    padding-top: 0 !important;
+}

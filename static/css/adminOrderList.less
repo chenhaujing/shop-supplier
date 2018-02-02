@@ -1,0 +1,345 @@
+#adminOrderList {
+    .orderList_nav {
+        margin-bottom: 20px;
+    }
+    .orderList_searchWrap {
+        .receiveGoodsBtn {
+            margin-bottom: 20px;
+        }
+        >.orderList_search {
+            >div {
+                >label {
+                    min-width: 65px !important;
+                    text-align: right;
+                    margin-right: 5px;
+                }
+                >span {
+                    margin: 0 2px;
+                }
+                >.el-select {
+                    width: 70%;
+                }
+                >.el-date-editor {
+                    width: 35%;
+                }
+                >.el-input {
+                    max-width: 300px;
+                }
+            }
+        }
+        >.orderList_advancedSearch {
+            >.row {
+                padding: 0 !important;
+                margin: 0 0 5px 0 !important;
+                >div {
+                    padding: 0 !important;
+                    text-align: right;
+                    >div {
+                        padding: 0 !important;
+                    }
+                    >label {
+                        min-width: 95px;
+                    }
+                    >span {
+                        padding: 0 !important;
+                        text-align: center;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+
+        >.orderList_tableWrap {
+            margin-top: 20px;
+            width: 100%;
+            position: relative;
+            th {
+                text-align: center;
+            }
+            >.orderList_mainTableParent {
+                width: 100%;
+                >.orderList_mainTable {
+                    tr {
+                        th:nth-of-type(1) {
+                            min-width: 50px;
+                        }
+                        th:last-child {
+                            min-width: 100px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+            >.orderList_editTable {
+                position: absolute;
+                width: 100px;
+                text-align: center;
+                right: 0;
+                top: 0;
+                background: #fff;
+                >tbody {
+                    tr {
+                        td {
+                            text-align: center;
+                            position: relative;
+                            padding: 0 !important;
+                            >a {
+                                width: 100%;
+                                height: 100%;
+                                display: block;
+                                padding: 2px 2px;
+                            }
+                            div {
+                                display: none;
+                                position: absolute;
+                                right: 50px;
+                                top: 20px;
+                                width: 100px;
+                                border: 1px solid #ccc;
+                                z-index: 100;
+                                a {
+                                    display: block;
+                                    padding: 10px 2px;
+                                    &:hover {
+                                        background: #ccc;
+                                    }
+                                }
+                            }
+                            &:hover div {
+                                display: block;
+                                background: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .confirm_layer_table {
+            max-height: 450px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            >.table {
+                margin-bottom: 0;
+                tr {
+                    >td {
+                        vertical-align: middle;
+                    }
+                    td:nth-of-type(6),
+                    td:nth-of-type(7),
+                    td:nth-of-type(8) {
+                        min-width: 94px;
+                    }
+                }
+            }
+        }
+    }
+
+    .orderList_pagingWrap {
+        >.v-pagination {
+            padding: 0;
+            margin-top: 20px!important;
+            >.v-select-page {
+                width: 120px;
+                margin-bottom: 10px;
+                >a {
+                    margin-left: 15px;
+                }
+            }
+            >.checkNumber {
+                margin-bottom: 10px;
+                >select {
+                    width: 140px;
+                }
+            }
+        }
+    }
+
+
+
+
+    .el-tabs__content>.el-tab-pane:nth-of-type(2) {
+        height: auto;
+    } // .warning {
+    //     width: 38%;
+    //     margin: 0 auto;
+    //     display: block;
+    //     text-align: center;
+    //     height: 38px;
+    //     margin-bottom: 10px;
+    //     small {
+    //         color: red;
+    //         display: block;
+    //         margin-top: 20px;
+    //         clear: both;
+    //         position: relative;
+    //         top: 6px;
+    //         left: -10px;
+    //         width: 220px;
+    //     }
+    // }
+    // .orderList.glyphicon {
+    //     top: 0;
+    //     color: #fff;
+    //     background-color: #50bfff;
+    // }
+    // .orderList.form-inline {
+    //     margin: 0 auto 20px;
+    // }
+    // .orderList.input-group {
+    //     margin-left: -30px;
+    // }
+    // .myModal .receiveGoodsBtn {
+    //     margin: 20px 0;
+    // }
+    // .orderListModal .form-group>span {
+    //     display: inline-block;
+    //     min-width: 120px;
+    //     text-align: right;
+    // }
+    .advancedSearch .form-group .startMoney,
+    .advancedSearch .form-group .endMoney {
+        width: 30.5%;
+    } // .orderList-qrcode {
+    //     img {
+    //         width: 12rem;
+    //         margin-bottom: 10px;
+    //     }
+    //     +.hint {
+    //         color: red;
+    //     }
+    // }
+    .orderList-refusePics {
+        >img {
+            margin-top: 2rem;
+            width: 14rem;
+            height: 10rem;
+            margin-right: 1rem;
+        }
+        >img:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .orderList-inputLogicsNum {
+        margin-bottom: 10px;
+        width: 100%;
+        >input {
+            width: 80%;
+        }
+    }
+
+    .orderList-trackInfo {
+        overflow: hidden;
+    }
+    .el-dialog--tiny {
+        min-width: 405px;
+    }
+
+
+    /* 列项选择 滑动效果*/
+    .selectList {
+        position: fixed;
+        right: 15px;
+        overflow: hidden;
+        z-index: 110; // top: 245px;
+    }
+    .selectList {
+        .el-checkbox {
+            width: 100%;
+        }
+        .h4 {
+            padding: 0 0 10px 30px;
+            border-bottom: 1px solid #ccc;
+        }
+        .el-checkbox-group {
+            height: 200px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            >label {
+                margin-left: 15px !important;
+            }
+        }
+        .selectionList {
+            >label {
+                border-top: 1px solid #ccc;
+                margin-left: -15px;
+            }
+            >.confirm {
+                margin: 10px auto;
+            }
+        }
+    }
+
+    .selectionList {
+        width: 300px;
+        border: 1px #ccc solid;
+        display: block;
+        transform: translateX(0);
+        background: #fff;
+    }
+    .slide-fade-enter-active {
+        transition: all .3s ease;
+    }
+
+    .slide-fade-leave-active {
+        transition: all .3s ease;
+    }
+
+    .slide-fade-enter,
+    .slide-fade-leave-to {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+
+    .selectionList .checkbox {
+        padding-left: 5rem;
+    }
+    .orderList_pagingWrap {
+        >.v-pagination {
+            padding: 0;
+            margin-top: 20px!important;
+            >.v-select-page {
+                width: 120px;
+                margin-bottom: 10px;
+                >a {
+                    margin-left: 15px;
+                }
+            }
+            >.checkNumber {
+                margin-bottom: 10px;
+                >select {
+                    width: 140px;
+                }
+            }
+        }
+    } // 排序按钮；
+    .sort {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .arrowUp {
+        transform: rotate(0deg);
+        transition: all .3s;
+    }
+    .arrowDown {
+        transform: rotate(180deg);
+        transition: all .3s;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    #adminOrderList {
+        .input_search {
+            width: 228px!important;
+        }
+        .dateInput {
+            min-width: 150px!important;
+        }
+        .date_inputs {
+            min-width: 390px;
+        }
+        .btn_group {
+            margin-left: -20px;
+        }
+    }
+}

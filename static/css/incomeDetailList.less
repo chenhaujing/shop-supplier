@@ -1,0 +1,265 @@
+.incomeDetailNumber {
+    margin-top: 3rem;
+    >div {
+        margin-top: 0.7rem;
+    }
+}
+
+.incomeDetailList_search {
+    position: absolute;
+    top: 2%;
+    left: 97%;
+}
+
+.incomeDetail_search {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.incomeDetailListDia_table1 > tbody > tr > td {
+    min-width: 90px;
+    line-height: 40px;
+    text-align: center;
+    max-width:200px;
+    overflow:hidden;
+    min-width: 100px;
+    text-overflow:ellipsis;
+}
+.incomeDetailList_dialog {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    >.mainTableParent {
+        width: 100%;
+        >.mainTable {
+            width: 100%;
+            tr {
+                th:nth-of-type(1) {
+                    min-width: 50px;
+                }
+                th:nth-of-type(2) {
+                    min-width: 250px;
+                }
+                th:nth-of-type(3){
+                    min-width: 85px;
+                }
+                th:nth-of-type(8){
+                    min-width: 110px;
+                }
+                th:nth-of-type(9) {
+                    min-width: 135px;
+                }
+                th:nth-of-type(4) {
+                    min-width: 130px;
+                }
+                th:nth-of-type(5){
+                    min-width: 130px;
+                }
+                th:nth-of-type(6){
+                    min-width: 110px;
+                }
+                th:nth-of-type(7) {
+                    min-width: 110px;
+                }
+                th:nth-of-type(10) {
+                    min-width: 100px;
+                }
+                th:nth-of-type(11) {
+                    min-width: 150px;
+                }
+                th:nth-of-type(12) {
+                    min-width: 100px;
+                }
+                th:nth-of-type(13) {
+                    min-width: 115px;
+                }
+                th:nth-of-type(14) {
+                    min-width: 100px;
+                }
+            }
+        }
+    }
+    >.incomeDetail_editTable {
+        position: absolute;
+        width: 100px;
+        text-align: center;
+        right: 0;
+        top: 0;
+        background: #fff;
+        >tbody {
+            tr {
+                td {
+                    text-align: center;
+                    position: relative;
+                    padding: 0 !important;
+                    >a {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        padding: 2px 2px;
+                    }
+                    div {
+                        display: none;
+                        position: absolute;
+                        right: 50px;
+                        top: 20px;
+                        width: 100px;
+                        border: 1px solid #ccc;
+                        z-index: 100;
+                        a {
+                            display: block;
+                            padding: 10px 2px;
+                            &:hover {
+                                background: #ccc;
+                            }
+                        }
+                    }
+                    &:hover div {
+                        display: block;
+                        background: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.incomeDetailList_money {
+    p {
+        line-height: 36px;
+        margin: 0 !important;
+    }
+}
+
+.incomeDetailList_pagingWrap {
+    position: relative;
+    .v-pagination {
+        position: absolute;
+        right: 0;
+        margin-left: 0;
+        margin-top: 20px!important;
+    }
+}
+
+.incomeDetailArrowUp {
+    transform: rotate(0deg);
+    transition: all .3s;
+}
+.incomeDetailArrowDown {
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+.incomeDetail_lookSearch {
+    >li {
+        display: inline-block;
+    }
+    >li:nth-child(2) {
+        margin-left: 5rem;
+    }
+    >li:nth-child(3) {
+        margin-left: 5rem;
+    }
+}
+
+.incomeDetail_paging {
+    // margin: 0 150px 0 0;
+    float: right;
+    margin-top: 20px;
+    >.v-pagination {
+        margin: 0;
+    }
+}
+
+
+
+/*刘述添加的样式*/
+
+.nav {
+    margin-left: 30px;
+}
+
+.formParent {
+    min-width: 366px;
+}
+
+.myRowContent {
+    margin: 0;
+}
+
+
+
+/*高级搜索样式*/
+
+.el-date-editor.el-input {
+    width: 100%;
+}
+
+.incomeDeatilList_advancedSearch {
+    padding: 20px 0;
+    span {
+        text-align: center;
+        line-height: 36px;
+        padding: 0 !important;
+    }
+    >.row {
+        margin: 0 0 5px 0 !important;
+        div {
+            padding: 0 !important;
+        }
+    }
+}
+
+.v-pagination {
+    >.v-select-page {
+        margin-bottom: 10px;
+        >a {
+            margin-left: 5px;
+        }
+    }
+    >.checkNumber {
+        margin-bottom: 10px;
+        margin-left: 10px;
+        >select {
+            margin: 0!important;
+        }
+    }
+}
+
+.incomeDetailList_myRow {
+    border: 1px solid #eee;
+    background: #ddd;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    >.myWidth {
+        width: 15%;
+    }
+    p {
+        margin: 0;
+        line-height: 36px;
+    }
+    >.formParent {
+        >form {
+            >div {
+                >span {
+                    text-align: center;
+                    line-height: 36px;
+                }
+            }
+        }
+    }
+}
+
+.incomeDeatilList_button {
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+
+.incomeDetailList_dialog>.el-dialog__wrapper>.el-dialog--small {
+    min-width: 850px;
+}
+
+.incomeDeatile {
+    margin-left: 50px;
+}

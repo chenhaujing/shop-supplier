@@ -1,0 +1,41 @@
+{
+    "orderId": 1,
+    "orderReceiverName": "Tony",
+    "orderReceiverMobile": "13800000000",
+    "orderStatus": 3,
+    "orderPrice": 90.01,
+    "orderCreateTime": 1499679658474,
+    "orderPaymentMethod": 1,
+    "orderPaymentNum": "1000001",
+    "sender": "快递员",
+    "sendCompany": "顺丰",
+    "productList": [
+        {
+            "img": "../static/img/1.png",
+            "name": "商品名称",
+            "proBrand": "ABC",
+            "proNumber": "7567576756",
+            "proSpec": "500ml * 12",
+            "proCount": "6",
+            "proPrice": "99"
+        },
+        {
+            "img": "../static/img/2.png",
+            "name": "商品名称",
+            "proBrand": "ccc",
+            "proNumber": "123445345",
+            "proSpec": "500ml * 12",
+            "proCount": "4",
+            "proPrice": "99"
+        },
+        {
+            "img": "../static/img/3.png",
+            "name": "商品名称",
+            "proBrand": "ggg",
+            "proNumber": "534234342",
+            "proSpec": "500ml * 12",
+            "proCount": "2",
+            "proPrice": "99"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "accountId": "1******5",
+  "userId": "1****3",
+  "providerName":"熊大",
+  "responsible": "熊大",
+  "responsiblePhone": "135********",
+  "license": "123595**********",
+  "businessType": "衣裤",
+  "registeredAddress": {
+    "province": "陕西省",
+    "city": "汉中市",
+    "countres": "镇巴县"
+  },
+  "registAddress": "陕西西安",
+  "discount": "",
+  "bankName": "中国银行",
+  "bankNum": "62895616516162656",
+  "bankUserName": "熊大",
+  "contractCreateDate": 1498262400,
+  "contractEndDate": 1498262400,
+  "contractLicenseCreate": 1498262400,
+  "contractLicenseEnd": 1498262400,
+  "area": {
+    "province": "陕西省",
+    "city": "汉中市",
+    "countres": "镇巴县"
+  }
+}

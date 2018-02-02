@@ -1,0 +1,96 @@
+#confirmReceiptRefuse {
+    padding-bottom: 40px;
+    .el-select {
+        width: 100%;
+        margin: 15px 0;
+    }
+    textarea {
+        resize: none;
+    }
+    .el-upload--picture-card,
+    .el-upload-list--picture-card .el-upload-list__item {
+        height: 60px;
+        width: 60px;
+    }
+
+    .el-upload--picture-card {
+        position: relative;
+        >i {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -14px;
+            margin-top: -14px;
+        }
+    }
+
+    .upload {
+        >h3 {
+            background: #eee;
+            font-size: 14px;
+            font-weight: normal;
+            height: 26px;
+            line-height: 26px;
+            color: #ccc;
+            text-indent: 4px;
+            +.uploader {
+                .show_pic {
+                    padding-bottom: 20px;
+                    >h3 {
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #ccc;
+                    }
+                    >img {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        background: #fff;
+        button {
+            width: 40%;
+            &:first-child {
+                float: left;
+            }
+            &:last-child {
+                float: right;
+            }
+        }
+    }
+
+    .el-upload-list--picture-card {
+        .el-icon-close {
+            display: block;
+            font-size: 14px;
+            right: 0;
+            top: 0;
+            color: red;
+            z-index: 10
+        }
+        .el-upload-list__item-actions {
+            background-color: transparent;
+        }
+        .el-icon-delete2 {
+            display: none;
+        }
+    }
+
+    .el-upload-list--picture-card .el-upload-list__item-actions span {
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        height: 60px;
+    }
+    .el-icon-view {
+        margin-top: 25px;
+        z-index: 100;
+    }
+}

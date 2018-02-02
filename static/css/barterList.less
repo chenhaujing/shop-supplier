@@ -1,0 +1,72 @@
+.barterListHeader div{
+    display: inline-block;
+    /*换货时间*/
+    >div:nth-of-type(1){
+        width:200px;
+    }
+}
+.barterList_search{
+    //换货单号 收货人姓名
+    >div:nth-of-type(1){
+        >div:nth-of-type(1){
+            display: inline-block;
+            width:350px;
+        }
+        >div:nth-of-type(2){
+            display: inline-block;
+            margin-left:187px;
+            width:450px;
+            div.el-input{
+                width:244px;
+            }
+        }
+    }
+    //换货时间    收货人电话
+    >div:nth-of-type(2){
+        margin-top:10px;
+        >div:nth-of-type(1){
+            display: inline-block;
+            >div:nth-of-type(1){
+                display: inline-block;
+            }
+            >div:nth-of-type(2){
+                display: inline-block;
+            }
+        }
+        >div:nth-of-type(2){
+            display: inline-block;
+            width:544px;
+            margin-left:227px;
+        }
+    }
+}
+.barterList_operate{
+    position: absolute;
+    width:200px;
+    right: -1%;
+}
+.barterList_img:hover>.barterList_editLabelWarp{
+    display: block;
+}
+.barterList_editLabelWarp{
+    position: absolute;
+    width:100px;
+    right:5%;
+    background:#fff;
+    display: none;
+    border:1px solid #CCCCCC;
+    >div{
+        padding:5px 0px;
+    }
+}
+.barterList_editLabelWarp>div:hover{
+    background:#E4E8F1;
+}
+.barterList_button{
+    float:right;
+    margin-right:200px;
+}
+
+.barter_select >div.el-input{
+    width:150px !important;
+}

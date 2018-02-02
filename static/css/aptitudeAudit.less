@@ -1,0 +1,125 @@
+.aptitude_audit{
+    min-width: 1300px;
+    >div:nth-of-type(1){
+        margin-bottom:14px;
+        margin-left:1px;
+    }
+    >div.aptitude_auditTwo{
+        height:54px;
+        line-height:54px;
+        width:100%;
+        background:#EAEAEA;
+        margin-left:1px;
+        overflow: hidden;
+    }
+}
+.aptitudeAudit_tableParent{
+    margin-top: 30px;
+    position: relative;
+    width:100%;
+    > .table-responsive{
+        .aptitudeAudit_mainTable{
+            thead{
+                >tr{
+                    > th {
+                        width:250px;
+                        height:40px;
+                        text-align: center;
+                    }
+                    >th:nth-of-type(9){
+                        width:50px;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td {
+                        vertical-align: middle;
+                        height:57px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden
+                    }
+                }
+            }
+        }
+    }
+}
+.aptitudeAudit_editTable{
+    position: absolute;
+    right:0px;
+    top:0px;
+    z-index: 100;
+    background: #FFFFFF;
+    >thead {
+        tr {
+            th {
+                border: 1px solid #ccc;
+                border-bottom:1px solid #ccc;
+                width:103px;
+                height:39px;
+                line-height:39px;
+            }
+        }
+    }
+    >tbody{
+        tr{
+            td{
+                border: 1px solid #ccc;
+                text-align: center;
+                height: 57px;
+                vertical-align: middle;
+                position: relative;
+            }
+        }
+    }
+}
+.aptitudeAudit_paging{
+    float:right;
+    margin-top:20px;
+}
+.aptitudeAudit_show{
+    width:1900px;
+    height:40px;
+    border:1px solid #DDDDDD;
+
+}
+.aptitudeAuditArrowUp {
+    transform: rotate(0deg);
+    transition: all .3s;
+}
+.aptitudeAuditArrowDown {
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+.aptitudeAudit_navWrap{
+    div{
+        padding: 0;
+        label{
+            text-align: right;
+            line-height: 36px;
+            padding: 0;
+        }
+    }
+
+}
+.aptitude_Header{
+    >div:nth-of-type(1){
+        width:190px;
+        display: inline-block;
+        margin-left:20px;
+    }
+    >div:nth-of-type(2){
+        width:300px;
+        display: inline-block;
+        margin-left:20px;
+    }
+    >div:nth-of-type(3){
+        width:300px;
+        display: inline-block;
+    }
+    >div:nth-of-type(4){
+        width:350px;
+        display: inline-block;
+    }
+}

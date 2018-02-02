@@ -1,0 +1,27 @@
+.staffList_status {
+    width: 10%;
+}
+
+.table>tbody>tr>td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.v-select-page {
+    margin-bottom: 10px;
+}
+
+.checkNumber {
+    margin-bottom: 10px;
+}
+
+.v-select-page>a {
+    margin-left: 10px;
+}
+
+#staffList .nav {
+    margin-bottom: 20px;
+    background: #eee;
+    border: 1px #ccc solid;
+    padding: 10px 0;
+}

@@ -1,0 +1,312 @@
+.commodityAudit_margin{
+    margin-top:-1px;
+}
+.commodityAudit_item{
+    width:100%;
+    background: #EAEAEA;
+    height:52px;
+    margin-top:3px;
+    overflow: hidden;
+    >div{
+        height:58px;
+        line-height:58px;
+    }
+    span{
+        margin-left:2%;
+    }
+}
+.commodityAudit_tableParent {
+    margin-top: 30px;
+    position:relative;
+    width:100%;
+    > div.table-responsive {
+        th:nth-of-type(1) {
+            width: 29px;
+        }
+        th:nth-of-type(2) {
+            width: 79px;
+            text-align: center;
+        }
+        th:nth-of-type(3) {
+            width: 227px;
+            text-align:center;
+
+        }
+        th:nth-of-type(4) {
+            width:321px;
+            text-align:center;
+
+        }
+        th:nth-of-type(5) {
+            width:134px;
+            text-align:center;
+        }
+        th:nth-of-type(6) {
+           width: 244px;
+            text-align:center;
+        }
+        th:nth-of-type(7) {
+             width:341px;
+            text-align:center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        th:nth-of-type(8) {
+            width: 200px;
+            text-align:center;
+        }
+        th:nth-of-type(9) {
+            width: 336px;
+            text-align:center;
+
+        }
+        th:nth-of-type(10) {
+            width:165px;
+            text-align:center;
+
+        }
+        th:nth-of-type(11) {
+           width: 73px;
+            text-align:center;
+
+        }
+        th:nth-of-type(12) {
+            width: 240px;
+            text-align:center;
+
+        }
+        th:nth-of-type(13) {
+            width: 73px;
+            text-align:center;
+
+        }
+        th:nth-of-type(14) {
+            width: 225px;
+            text-align:center;
+
+        }
+        th:nth-of-type(15) {
+            width:225px;
+            text-align:center;
+
+        }
+        th:nth-of-type(16) {
+            width:225px;
+            text-align:center;
+
+        }
+        th:nth-of-type(17) {
+            width:73px;
+            text-align:center;
+
+        }
+        th:nth-of-type(18) {
+            width:261px;
+            text-align: center;
+
+        }
+        th:nth-of-type(19){
+            width: 50px;
+            text-align: center;
+        }
+        td:nth-of-type(1){
+            width:20px;
+
+        }
+        td:nth-of-type(2){
+            width:20px;
+            text-align:center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        td:nth-of-type(4){
+            text-align:center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        td:nth-of-type(5){
+            width:70px;
+            text-align:center;
+            //缩略图
+            .commodityAudit_tableImgHidden{
+                position: absolute;
+                left: 625px;
+                width: 120px;
+                height: 120px;
+                border: 1px solid #ccc;
+                display: none;
+                z-index: 100;
+            }
+            img{
+                width:50px;
+                height:50px;
+            }
+        }
+        td:nth-of-type(4){
+            width:70px;
+            text-align:center;
+        }
+        td:nth-of-type(5){
+            width:70px;
+            text-align:center;
+        }
+        td:nth-of-type(6){
+            width:70px;
+            text-align:center;
+        }
+        td:nth-of-type(7){
+            width:115px;
+            text-align:center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        td:nth-of-type(8){
+            width:115px;
+            text-align:center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        td:nth-of-type(9){
+            width:115px;
+            text-align:center;
+        }
+        td:nth-of-type(10){
+            width:115px;
+            text-align:center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        td:nth-of-type(11){
+            width:5px;
+            text-align:center;
+        }
+        td:nth-of-type(12){
+            text-align:center;
+        }
+        td:nth-of-type(13){
+            width:110px;
+            text-align:center;
+        }
+        td:nth-of-type(14){
+            width:30px;
+            text-align:center;
+        }
+        td:nth-of-type(15){
+            width:150px;
+            text-align:center;
+        }
+        td:nth-of-type(16){
+            width:150px;
+            text-align:center;
+        }
+        td.commodityAudit_state{
+            width:158px;
+            text-align:center;
+        }
+        td.commodityAudit_noPass{
+            width:158px;
+            text-align:center;
+        }
+    }
+}
+.commodityAudit_table{
+    width:100px;
+    position: absolute;
+    top:0;
+    right:0;
+    background:#FFFFFF;
+    th{
+        width:100px;
+        height:40px;
+    }
+    .commodityAudit_model{
+        td{
+            height:67px;
+            width:100px;
+            text-align: center;
+            &:hover .commodityAudit_animate{
+                display: block;
+            }
+        }
+    }
+}
+
+.commodityAudit_animate{
+    position: absolute;
+    right:63px;
+    width:92px;
+    border:1px solid #DDDDDD;
+    min-height: 20px;
+    display: none;
+    text-align: center;
+    background: #FFFFFF;
+    div{
+        cursor: pointer;
+        color:#1473F5;
+        height:40px;
+        line-height:40px;
+        border-radius: 2px;
+        &:hover{
+            background: #E4E8F1;
+        }
+    }
+}
+.commodityAudit_noPass:hover >.commodityAudit_content{
+    display: block;
+}
+.commodityAudit_content{
+    position: absolute;
+    text-align: center;
+    margin-left:-200px;
+    width:280px;
+    display: none;
+    right:10%;
+}
+.commodityAudit_paging{
+    margin-top:20px;
+    float:right;
+}
+
+
+.commodityAudit_tableImgDisplay{
+    display: block !important;
+}
+
+.commodityAudit_color{
+    color:#000000;
+    font-weight:bold;
+}
+.commodityAudit_auditMessage{
+    position: relative;
+    p:nth-of-type(2){
+        position: absolute;
+        border: 1px solid #ccc;
+        top: -10px;
+        right: 58px;
+        border-radius: 5px;
+        background: #f7ba2a;
+        width: 267px;
+        height: 79px;
+        overflow-y: auto;
+        font-size: 12px;
+        display: none;
+        padding-top: 8px;
+    }
+    &:hover p:nth-of-type(2) {
+        display: block;
+    }
+}
+.commodityAuditArrowUp {
+    transform: rotate(0deg);
+    transition: all .3s;
+}
+.commodityAuditArrowDown {
+    transform: rotate(180deg);
+    transition: all .3s;
+}

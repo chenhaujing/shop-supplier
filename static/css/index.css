@@ -1,0 +1,47 @@
+body {
+		background-color: #f7f8f9;
+	}
+
+.appTop{
+    background:#363F50;
+    height:100px;
+    color:#fff;
+}
+
+.appTop .appTitle{
+    font-size:30px;
+    margin-top:40px;
+    padding-left: 20px;
+}
+.appTop .appName{
+    text-align: right;
+    margin-top:40px;
+    margin-right:20px;
+}
+
+.appTop .appName .signOut{
+    cursor: pointer;
+}
+.appTop .appName .signOut:hover{
+    text-decoration: underline
+}
+div.title{
+    background:#0ca3d2;
+    min-height: 1000px;
+    /*width: 330px;*/
+    padding-left: 100px;
+    color:#fff;
+    display:block;
+    margin-right: 90px;
+}
+div.title a{
+    color:#fff;
+}
+.panel-body{
+    display:block;
+    margin-left:20px;
+    width:100%;
+    min-height:1000px;
+    background:#F2F2F2;
+
+}

@@ -1,0 +1,44 @@
+.unSettlementListDetailNumber{
+    margin:30px;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background: #D7D7D7;
+    /*height:4rem;*/
+    padding: 10px 0;
+    overflow: hidden;
+}
+.UnSettlementListDetail_table>thead>tr>th{
+    text-align: center;
+}
+.UnSettlementListDetail_table>tbody>tr>td {
+    min-width: 135px;
+    text-align: center;
+    max-width:270px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.UsettlementListDetail_table > tbody > tr > td {
+    min-width: 90px;
+    line-height: 40px;
+    text-align: center;
+    max-width:200px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.settlementListDetailNumber>div{
+    margin-top:0.7rem;
+    margin-left:5rem;
+}
+.settlementListDetail_search{
+    position: absolute;
+    top:30%;
+    left:80%;
+}
+.settlementListDetailNumber  p{
+    margin-top:1rem;
+}
+

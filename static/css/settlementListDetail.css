@@ -1,0 +1,88 @@
+.settlementListDetailNumber {
+    margin:30px;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background: #D7D7D7;
+    /*height:4rem;*/
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.settlementListDetailNumber>div {
+    margin-top:0.7rem;
+    margin-left: 5rem;
+}
+
+.settlementListDetail_search {
+    position: absolute;
+    top: 30%;
+    left: 85%;
+}
+
+.settlementListDetailNumber span {
+    margin: 0!important;
+    line-height: 36px;
+}
+
+
+
+/*
+    .v-pagination {
+    margin: 40px 0 0 290px;
+}
+*/
+
+.settlementListDetail_divStyle>.v-pagination {
+    margin: 0;
+    margin-left: 7%;
+}
+
+.SettlementList_table>thead>tr>th {
+    text-align: center;
+}
+
+.SettlementList_table>tbody>tr>td {
+    text-align: center;
+}
+
+.settlementList_pagination {
+    margin-top: 20px;
+}
+
+.settlementListDetail_table>thead>tr>th {
+    text-align: center;
+}
+
+.settlementListDetail_table>tbody>tr>td {
+    min-width: 135px;
+    text-align: center;
+    max-width:270px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.settlementList_pagination>.v-pagination {
+    margin: 0;
+    margin-left: 45%;
+}
+
+.settlementList_pagination>.v-pagination>.v-select-page {
+    margin-bottom: 10px;
+}
+
+.settlementList_pagination>.v-pagination>.v-select-page>a {
+    margin: 0 5px;
+}
+
+.settlementList_pagination>.v-pagination>.checkNumber {
+    margin-bottom: 10px;
+}
+
+.settlementList_pagination>.v-pagination {
+    margin-left: 0!important;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}

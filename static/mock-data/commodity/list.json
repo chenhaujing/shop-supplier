@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "commId": "1",
+    "supplierId": "10005",
+    "commName": "西瓜",
+    "brandName":"三只松鼠",
+    "commCode69":"123456789",
+    "minImg":"../../static/img/1.png",
+    "unit":"斤",
+    "status":"0",
+    "ruleName":"10斤西瓜",
+    "ruleValue":"50元",
+    "ruleInventory":"500",
+    "createdAt":"2017-05-28",
+    "updatedAt":"2017-06-03"
+  },
+  {
+    "id": "2",
+    "commId": "2",
+    "supplierId": "10005",
+    "commName": "6s",
+    "brandName":"苹果",
+    "commCode69":"123sdfa456789",
+    "minImg":"./../static/img/2.png",
+    "unit":"台",
+    "status":"1",
+    "ruleName":"64GB",
+    "ruleValue":"50元",
+    "ruleInventory":"500",
+    "createdAt":"2017-05-28",
+    "updatedAt":"2017-06-03"
+  },
+  {
+    "id": "1",
+    "commId": "1",
+    "supplierId": "10005",
+    "commName": "西瓜",
+    "brandName":"三只松鼠",
+    "commCode69":"123456789",
+    "minImg":"./../static/img/3.png",
+    "unit":"斤",
+    "status":"2",
+    "ruleName":"10斤西瓜",
+    "ruleValue":"50元",
+    "ruleInventory":"500",
+    "createdAt":"2017-05-28",
+    "updatedAt":"2017-06-03"
+  }
+]

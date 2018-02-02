@@ -1,0 +1,129 @@
+.supplierinfoEdit_message {
+    font-size: 1.8rem;
+    border: 1px solid transparent;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*为标签页做过渡效果*/
+.supplierinfoEdit_message_cartoon {
+    color: #36A7FE;
+    border-bottom: 2px solid #36A7FE;
+}
+.supplierinfo_button>button{
+    width:100px;
+}
+.supplierInfoEdit_reason{
+    color:red;
+    width:26%;
+    word-wrap: break-word;
+    margin: 0 32%;
+    text-align: center;
+    font-size: 18px;
+}
+.supplierinfoEdit_model {
+    margin-top: 2rem;
+}
+
+.supplierinfoEdit_basMessage {
+    margin-top: 3rem;
+    margin-right:0px;
+    margin-left: 0px;
+}
+
+.supplierinfoEdit_update {
+    margin-top: 2rem;
+}
+
+.supplierinfoEdit_button {
+    width: 74px;
+}
+.test{
+
+}
+.supplierinfoEdit_top {
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right:0;
+}
+
+.useful_time {
+    margin-top: 1.5rem;
+}
+
+/*刘述改变的样式*/
+.supolierInfoEdit_selectStyle {
+    float: right;
+    margin: 0 82px 0 5px;
+}
+
+.supolierInfoEdit_selectStyle > span {
+    float: left;
+    line-height: 34px;
+}
+
+.supolierInfoEdit_selectStyle > select {
+    float: left;
+    width: 25%;
+    margin: 0 10px;
+}
+
+.supolierInfoEdit_inputStyle {
+    float: right;
+}
+.supplierInfoEdit_margin{
+    margin-top:10px;
+}
+.supolierInfoEdit_inputStyle > div.el-input {
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+}
+.supplierinfoEdit_state{
+    display: inline-block;
+    margin-left:12%;
+}
+.supplier_status div.el-upload{
+    display: none !important;
+}
+.supplier_statusOne div.el-upload{
+    display: none !important;
+}
+.audit div.el-upload{
+    display: block;
+}
+.supolierInfoEdit_inputStyle > span {
+    float: left;
+    line-height: 34px;
+}
+
+.supplierinfoEdit_basic_warp {
+    margin-top: 30px;
+    margin-right:0px;
+    margin-left: 0px;
+}
+.supplierinfoEdit_Margin{
+    margin-right:0px;
+    margin-left: 0px;
+}
+.supplierinfoEdit_upComming{
+    color:blue;
+    margin-top:10px;
+}
+.supplierinfoEdit_pastDue{
+    color:red;
+    margin-top:10px;
+}
+.supplierMargin{
+    margin-left:-20% !important;
+}
+.supplierTwoMargin{
+    margin-left:-18% !important;
+}
+.supplierbaseMessage_Margin{
+    margin-left:-2%;
+}
+.supplierinfoEdit_pic{
+    margin-left:5%;
+}

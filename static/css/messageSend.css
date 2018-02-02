@@ -1,0 +1,174 @@
+.messageSend_wrap {
+    min-width: 890px;
+}
+
+.messageSend_content {
+    width: 100%;
+    height: 73rem;
+}
+
+.sendMessage {
+    margin-top: 30px;
+    color: #000;
+    font-size: 2rem;
+}
+
+.messageSend_contentRow {
+    margin-top: 20px;
+    margin-left: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.messageSend_contentRow li {
+    margin-top: 1%;
+    width: 18%;
+}
+
+.messageSend_contentRow li:nth-child(1) {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.messageSend_contentRow li:nth-child(2) {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 3%;
+}
+
+.messageSend_contentRow li:nth-child(3) {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.messageSend_contentRow li:nth-child(4) {
+    float: right;
+    margin-left: 10%;
+}
+
+.messageSend_contentRow > div > table > tbody > tr > td {
+    height: 54px;
+}
+
+.messageSend_paging {
+    float: right;
+   margin-top:10px;
+}
+
+.messageSend_paging > div.v-pagination {
+    /*width: 700px;*/
+    margin: 0 auto;
+}
+
+/*.messageSend_paging > .v-pagination > .v-select-page {*/
+    /*margin-bottom: 10px;*/
+    /*!*margin-top: -10px;*!*/
+/*}*/
+
+.messageSend_paging > .v-pagination > .checkNumber {
+    margin-bottom: 12px;
+    /*margin-top: -10px;*/
+}
+
+.messageSend_paging > .v-pagination > .v-select-page > span {
+    line-height: 30px;
+}
+
+.messageSend_paging > .v-pagination > .v-select-page > a {
+    width: 40px;
+    text-align: center;
+}
+
+.messageSend_paging > .v-pagination > .checkNumber > select {
+    width: 100%;
+}
+
+.messageSend_all_message {
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.messageSend_title {
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.messageSend_input {
+    margin-left: -2rem;
+    padding-left: 30px;
+    border: 0;
+    outline: none;
+    width: 100%;
+}
+
+.messageSend_text {
+    margin-top: 3rem;
+}
+
+/*刘述加的已发送消息样式*/
+.tableStyle {
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto 20px;
+}
+
+.tableStyle > thead > tr {
+    border-top: 2px solid #ccc;
+}
+
+.tableStyle > thead > tr > th {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tableStyle > thead > tr > th:nth-child(1) {
+    width: 15%;
+}
+
+.tableStyle > thead > tr > th:nth-child(2) {
+    width: 100%;
+}
+
+.tableStyle > thead > tr > th:nth-child(3) {
+    width: 50%;
+}
+
+.tableStyle > thead > tr > th:nth-child(4) {
+    width: 15%;
+}
+
+.tableStyle > thead > tr > th:nth-child(5) {
+    width: 10%;
+}
+
+.tableStyle > tbody > tr > td {
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tableStyle > tbody > tr > td {
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.messageSend_table {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+    width: 140px;
+    background: #FFFFFF;
+}
+
+.messageSend_table td {
+    height: 37px;
+}
+
+.sendMessage_Delete_button {
+    height: 37px;
+}
+
+

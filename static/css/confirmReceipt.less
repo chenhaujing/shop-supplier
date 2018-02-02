@@ -1,0 +1,79 @@
+    #confirmReceipt {
+        box-sizing: border-box;
+        padding-bottom: 90px;
+        .title {
+            font-size: 120%;
+            margin-bottom: 20px;
+        }
+
+        .detail-container {
+            width: 100%;
+            border-top: 1px #ccc solid;
+            margin-bottom: 20px;
+        }
+
+        .item-detail {
+            border-bottom: 1px #ccc solid;
+            padding-top: 12px;
+            overflow: hidden;
+            p {
+                padding: 0;
+            }
+        }
+
+        .total {
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px #ccc solid;
+        }
+
+        .el-dialog__footer {
+            text-align: center;
+        }
+
+        footer.conduct {
+            background: #fff;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            padding: 10px;
+            >div {
+                >p {
+                    text-indent: 2em;
+                }
+                button {
+                    width: 40%;
+                    &:first-child {
+                        float: left;
+                    }
+                    &:last-child {
+                        float: right;
+                    }
+                }
+            }
+            >button {
+                width: 40%;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+    /*字体设置*/
+
+    @media (min-width: 320px) and (max-width: 332px) {
+        #confirmReceipt {
+            font-size: 12px;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 540px) {
+        #confirmReceipt .date {
+            width: 100%;
+            text-align: right;
+        }
+        .commodity {
+            >p {
+                width: 100%;
+            }
+        }
+    }

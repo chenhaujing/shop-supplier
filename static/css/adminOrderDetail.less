@@ -1,0 +1,279 @@
+#adminOrderDetail {
+    .el-tabs__content>.el-tab-pane:nth-of-type(2) {
+        height: auto;
+    }
+    .el-dialog--tiny {
+        min-width: 405px;
+    }
+    .warning {
+        width: 38%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        height: 38px;
+        margin-bottom: 10px;
+        small {
+            color: red;
+            display: block;
+            margin-top: 20px;
+            clear: both;
+            position: relative;
+            top: 6px;
+            left: -10px;
+            width: 220px;
+        }
+    }
+
+    .myModal .receiveGoodsBtn,
+    .myModal .reviseLogicsInfo {
+        margin: 20px 0;
+    }
+
+    .resize {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: -8px;
+        left: 2%;
+        cursor: pointer;
+    }
+
+    .orderList-qrcode {
+        img {
+            width: 12rem;
+            margin-bottom: 10px;
+            +.hint {
+                color: red;
+            }
+        }
+    }
+
+    .orderList-refusePics {
+        >img {
+            margin-top: 4rem;
+            width: 14rem;
+            height: 10rem;
+            margin-right: 1rem;
+        }
+        >img:last-child {
+            margin-right: 0;
+        }
+    }
+    .orderDetail-inputLogicsNum {
+        margin-bottom: 10px;
+        width: 100%;
+        >input {
+            width: 80%;
+        }
+    }
+
+    /*退款弹窗里面的内容；*/
+    .orderList-repay {
+        margin-top: -1rem;
+        p {
+            line-height: 0.8em;
+            >span {
+                display: inline-block;
+                width: 80px;
+                text-align: right;
+            }
+        }
+        +p {
+            text-align: center;
+            margin-top: 2em;
+            font-size: 16px;
+        }
+        .orderList-trackInfo {
+            overflow: hidden;
+        }
+        .orderList-exp {
+            margin-left: 1rem;
+            margin-right: 0.55rem;
+        }
+    }
+
+    .orderList-search {
+        min-width: 1510px;
+    }
+
+    /*定义一些公用样式*/
+    .orderlist-64 {
+        width: 64% !important;
+    }
+
+    .orderlist-30 {
+        width: 30% !important;
+    }
+
+    .orderlist-m20 {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .orderlist-resize {
+        position: absolute;
+        top: 12px;
+        left: 114px;
+        cursor: pointer;
+    }
+
+    .pageTitle {
+        border: none;
+        font-weight: 900;
+    }
+
+    .orderDetail_row {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+    }
+
+    .orderDetail_tableImgHidden {
+        position: absolute;
+        left: 200px;
+        bottom: 0;
+        width: 150px;
+    }
+
+    #orders {
+        >tbody>tr>td {
+            padding: 2px 5px !important;
+            vertical-align: middle;
+        }
+        >div>.form-horizontal>div {
+            >label {
+                padding: 0 !important;
+                margin-right: 10px;
+                text-align: right !important;
+            }
+            >div {
+                padding: 0;
+                >span {
+                    padding: 0;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+    >span {
+        font-size: 16px;
+    }
+
+    >.table.table-bordered.table-hover>tbody>tr>td>img:first-child {
+        width: 50px !important;
+    }
+
+    .form-horizontal .control-label {
+        padding-top: 0!important;
+    }
+
+    .confirm_layer_table {
+        max-height: 450px;
+        overflow-y: auto;
+        >.table {
+            margin-bottom: 0;
+            td {
+                vertical-align: middle;
+            }
+        }
+    }
+    .form_group {
+        position: fixed;
+        top: 86px;
+        right: 3%;
+        z-index: 10;
+        >div {
+            margin-left: 10px;
+            background: #fff;
+        }
+    }
+
+
+    .order_table_title {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .order_table {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+    }
+
+    .order_list_style {
+        height: 50px;
+        background-color: #e9eaec;
+        padding-top: 5px;
+    }
+
+    .order_table_header {
+        height: 40px;
+        background-color: #ccc;
+        line-height: 36px;
+        border-bottom: 1px solid #666;
+    }
+
+    .order_table_header span {
+        max-width: 220px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .order_list_style .form-group {
+        font-size: 15px;
+        line-height: 36px!important;
+        margin-bottom: 0;
+    }
+
+    .dialog_label_style {
+        width: 90px;
+        text-align: right;
+    }
+    .adminOrderDetail_row {
+        .form-horizontal {
+            >.form-group {
+                line-height: 36px!important;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+// 重置订单详情样式
+@media print {
+    .adminOrderDetail_row {
+        .form-horizontal {
+            >.form-group {
+                line-height: 36px!important;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .print_css {
+        >h4 {
+            min-width: 140px;
+        }
+        .order_list_style {
+            >.form-group {
+                min-width: 220px;
+                >label {
+                    min-width: 80px;
+                }
+                >div {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+    .order_table_header {
+        >div {
+            >label {
+                width: 100px;
+                text-align: right;
+            }
+            >div {
+                padding-top: 8px;
+            }
+        }
+    }
+}

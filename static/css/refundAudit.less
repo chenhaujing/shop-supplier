@@ -1,0 +1,77 @@
+#refundAudit {
+    .crumbs {
+        margin-bottom: 0;
+    }
+    .el_title {
+        margin-bottom: 10px;
+        line-height: 36px;
+        border-bottom: 1px #f5f5f5 solid;
+        span {
+            display: inline-block;
+        }
+    }
+    .el-table {
+        th {
+            text-align: center;
+            >div {
+                padding: 0;
+            }
+        }
+        .pic_thumb {
+            height: 50px;
+        }
+    }
+    .detail {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+    .el-button+.el-button {
+        margin-left: 14px;
+    }
+    .warning {
+        width: 38%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        height: 38px;
+        margin-bottom: 10px;
+        small {
+            color: red;
+            display: block;
+            margin-top: 20px;
+            clear: both;
+            position: relative;
+            top: 6px;
+            left: -10px;
+            width: 220px;
+        }
+    }
+    .orderList-repay {
+        margin-top: -1rem;
+        p {
+            line-height: 0.8em;
+            >span {
+                display: inline-block;
+                width: 80px;
+                text-align: right;
+            }
+        }
+        +p {
+            text-align: center;
+            margin-top: 2em;
+            font-size: 16px;
+        }
+    } // 弹层最小宽度限制
+    .min_width {
+        min-width: 430px;
+    } //拒绝原因
+    .refuseReason {
+        display: block;
+        width: 80%;
+        height: 150px;
+        margin: 0 auto;
+        resize: none;
+        border: 1px #ccc solid;
+    }
+}

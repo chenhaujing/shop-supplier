@@ -1,0 +1,207 @@
+.row .basic {
+    line-height: 40px;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.basicInfo_nav{
+    margin-top:25px;
+}
+.basicinfo_orderInformation{
+    margin-top:5px;
+}
+h5 {
+    font-weight: normal;
+    text-align: left;
+    padding-left: 10px;
+}
+div.basicinfo_information span{
+    color:black;
+}
+.main {
+    border: 1px solid black;
+    width: 900px;
+    height: 700px;
+    position: relative;
+}
+
+.content1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 900px;
+    height: 320px;
+}
+
+.content2 {
+    border-top: 1px solid black;
+    width: 900px;
+    height: 250px;
+}
+
+.content1 > div {
+    width: 370px;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.contract {
+    position: absolute;
+    left: 55px;
+    top: 440px;
+}
+
+.content1 > div > label {
+    margin-right: 10px;
+}
+
+.content1 > div:nth-child(2) label {
+    width: 105px;
+    text-align: right;
+}
+
+.content1 > div:nth-child(5) label {
+    padding-right: 15px;
+}
+
+.content1 > div:nth-child(6) label {
+    padding-right: 15px;
+}
+
+.content2 > div {
+    width: 370px;
+    float: left;
+    margin: 10px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+.basicinfo_message {
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    color: #727987;
+    font-weight: 800;
+    padding: 10px 0;
+}
+.basic_upcomePast{
+    color:blue;
+    margin-top:13px;
+}
+.basic_past{
+    color:red;
+    margin-top:13px;
+}
+/*为标签页做过渡效果*/
+.basicinfo_message_cartoon {
+    color: #36A7FE;
+    border-bottom: 2px solid #36A7FE;
+}
+
+.basicinfo_address {
+    margin-top: 2rem;
+}
+
+.basicinfo_loginAddress {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.basicinfo_Margin{
+    margin-left: 0;
+    margin-right:0;
+}
+.basicInfo_selectStyle {
+    padding-left: 10px;
+    margin: -33px 0 0 20%;
+}
+
+.basicInfo_selectStyle > span {
+    font-size: 14px;
+    float: left;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.basicInfo_i {
+    padding: 0 40px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    width: 0;
+    line-height: 34px;
+}
+
+.basicInfo_i:after {
+    content: "▼";
+    position: absolute;
+    top: 0;
+    right: 5px;
+
+}
+
+.basicInfo_spanTwo {
+    padding: 0 20px;
+    width: 70px;
+    display: inline-block;
+    margin: -6px 10px;
+    line-height: 34px;
+}
+
+.basicinfo_information span {
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.basicInfo_button {
+    margin-bottom: 20px;
+}
+
+.basicinfo_information .col-xs-1 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.basicinfo_information .col-xs-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.basicinfo_information .col-xs-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.basicinfo_auditPass{
+    text-align: center;
+    font-size:18px;
+}
+.basicinfo_information .col-xs-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+#basicInfo_color>span{
+    color:#f3f5f7;
+}
+#basicInfo_colorTwo>span{
+    color:#f3f5f7;
+}
+div.el-upload{
+    display: none;
+}
+.basicMargin{
+    margin-left:-7%;
+}
+.basicInfo_pic{
+    margin-left:5%;
+}
+.basicinfo_button button{
+    width:102px;
+}

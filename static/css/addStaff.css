@@ -1,0 +1,42 @@
+.addStaff_setting {
+    color: #0066FF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.addStaff_inputWrap {
+    /* border: 1px solid #ccc; */
+    padding: 20px 0;
+    width: 700px;
+    background-color: rgba(36, 47, 66, 0.12);
+    margin:0 auto;
+}
+ 
+.addStaff_inputWrap > div > div label {
+    text-align: right;
+    line-height: 34px;
+    width: 80px;
+}
+.addStaff_inputWrap>.clearfix{
+    margin: 0 auto;
+    width: 180px;
+}
+.addStaff_inputWrap>.clearfix>div:nth-of-type(1){
+    margin-right:40px;
+}
+.addStaff_divWrap{
+    width:700px;
+    margin: 20px auto;
+}
+.addStaff_divWrap>.addStaff_setting{
+    padding:0 300px;
+}
+
+.addStaff_row_bottom{
+    margin-bottom: 20px;
+}
+.addStaff_row_center{
+    width: 300px;
+    margin: 0 auto;
+}

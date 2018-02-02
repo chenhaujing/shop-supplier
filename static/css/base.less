@@ -1,0 +1,191 @@
+ul li {
+    list-style: none;
+}
+
+.clearPadding {
+    padding: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearMargin {
+    margin: 0;
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.rowMargin {
+    margin-bottom: 5px;
+}
+
+.clearFix {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.p-rel {
+    position: relative;
+}
+
+.p-abs {
+    position: absolute;
+}
+
+table,
+th {
+    text-align: center;
+}
+
+.publicHeader {
+    margin: 20px 0 0 !important;
+    background: #eef1f6 !important;
+    padding: 10px !important;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+.publicModelSearch {
+    border-top: none !important;
+    margin-top: -2px !important;
+    padding: 20px 10px !important;
+    background: rgba(236, 233, 233, 0.69) !important;
+}
+
+label {
+    float: left;
+    padding-right: 10px !important;
+    margin: 0 !important;
+    line-height: 36px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.tdPositive {
+    width: 100px;
+    min-width: 100px;
+    position: relative;
+}
+
+.tdPositive:before {
+    content: "△";
+    position: absolute;
+    font-size: 24px;
+    top: 2px;
+    right: 8px;
+    color: red;
+}
+
+.tdInverted {
+    width: 100px;
+    min-width: 100px;
+    position: relative;
+}
+
+.tdInverted:before {
+    content: "▽";
+    position: absolute;
+    font-size: 24px;
+    top: 2px;
+    right: 8px;
+    color: red;
+}
+
+.bread_wrap > span :hover {
+    cursor: pointer;
+}
+
+.margin-left15 {
+    margin-left: 15px;
+}
+
+.publicEditTable {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    z-index: 80;
+    width: 100px !important;
+    background: #fff;
+    th {
+        min-width: 100px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 2px 5px;
+        height: 38px;
+    }
+    td {
+        height: 55px;
+        padding: 10px 32px;
+        position: relative;
+        vertical-align: middle !important;
+        text-align: center !important;
+        div {
+            display: none;
+            position: absolute;
+            top: 10%;
+            right: 50px;
+            width: 100%;
+            border: 1px solid #ccc;
+            z-index: 100;
+            background: white;
+            button {
+                display: block;
+                text-align: center;
+                background: #fff;
+                padding: 2px 2px;
+            }
+        }
+        &:hover div {
+            display: block;
+        }
+    }
+}
+
+.publicLargeEdit {
+    height: 55px;
+    position: relative;
+    width: 100px;
+    div {
+        display: none;
+        position: absolute;
+        bottom: 10%;
+        right: 50px;
+        width: 100%;
+        border: 1px solid #ccc;
+        z-index: 100;
+        background: white;
+        button {
+            display: block;
+            text-align: center;
+            background: #fff;
+            padding: 2px 2px;
+        }
+    }
+    &:hover div {
+        display: block;
+    }
+}

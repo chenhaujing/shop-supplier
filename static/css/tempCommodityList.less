@@ -1,0 +1,354 @@
+.commodityList_breadNav {
+    span {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.commityList_middle {
+    text-align: center;
+    padding: 0;
+    width: 14px;
+    line-height: 36px;
+}
+
+/*commodityList中表格样式start--刘述更改*/
+.comodityList-listWrap {
+    ul {
+        li {
+            cursor: pointer;
+        }
+    }
+    .commodityList_largeTableWrap {
+        position: relative;
+        > .commodityList_tableWrap {
+            margin-top: 20px;
+            > table {
+                position: relative;
+                z-index: 50;
+                word-wrap: break-word;
+                word-break: break-all;
+                > thead {
+                    > tr {
+                        > td {
+                            text-align: center;
+                            padding: 7px !important;
+                        }
+                        td:nth-of-type(2) {
+                            min-width: 60px;
+                        }
+                        td:nth-of-type(3) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(4) {
+                            min-width: 120px;
+                        }
+                        td:nth-of-type(5) {
+                            min-width: 120px;
+                        }
+                        td:nth-of-type(6) {
+                            min-width: 120px;
+                        }
+                        td:nth-of-type(7) {
+                            min-width: 80px;
+                        }
+                        td:nth-of-type(8) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(9) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(10) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(11) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(12) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(13) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(14) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(15) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(16) {
+                            min-width: 100px;
+                        }
+                        td:nth-of-type(17) {
+                            min-width: 150px;
+                        }
+                        td:nth-of-type(18) {
+                            min-width: 100px;
+                            width: 100px;
+                        }
+                    }
+                }
+                > tbody {
+                    tr {
+                        td {
+                            position: relative;
+                            text-align: center;
+                            vertical-align: middle;
+                            padding: 2px 5px;
+                            height: 55px;
+                            > .commodityList_auditMessage {
+                                width: 100%;
+                            }
+                            .commodityList_content {
+                                position: absolute;
+                                text-align: right;
+                                margin-left: -200px;
+                                width: 280px;
+                                display: none;
+                            }
+                        }
+                        td:nth-of-type(7) {
+                            position: relative;
+                            .commityList_tableImgHidden {
+                                position: absolute;
+                                left: 100px;
+                                bottom: -25px;
+                                width: 120px;
+                                height: 120px;
+                                border: 1px solid #ccc;
+                                display: none;
+                                z-index: 100;
+                            }
+                        }
+                        .commodityList_auditMessage {
+                            position: relative;
+                            p:nth-of-type(2) {
+                                display: none;
+                                position: absolute;
+                                top: -10px;
+                                right: 80px;
+                                border: 1px solid #ccc;
+                                z-index: 50;
+                                border-radius: 5px;
+                                background: #f7ba2a;
+                                padding: 10px;
+                                width: 267px;
+                                height: 80px;
+                                overflow-y: auto;
+                                font-size: 12px;
+                            }
+                            &:hover p:nth-of-type(2) {
+                                display: block;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .commodityList_pageWrap {
+        overflow: hidden;
+        .v-pagination {
+            float: right;
+            margin: 20px 0;
+            padding: 0;
+            .v-page {
+                padding: 0;
+            }
+            > .v-select-page {
+                margin-bottom: 10px;
+                > span {
+                    line-height: 30px;
+                }
+                > a {
+                    margin-left: 10px;
+                }
+            }
+            .checkNumber {
+                margin: 0 0 10px 10px;
+                select {
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
+
+}
+
+/*commodityList中表格样式end--刘述更改*/
+
+.optionsBox {
+    float: right;
+}
+
+.listOptions {
+    li {
+        margin: 0 0.1rem;
+        display: inline-block;
+    }
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.comodityList-listWrap {
+    div {
+        > label {
+            padding: 0;
+            line-height: 34px;
+        }
+        > div {
+            padding: 0;
+        }
+        > span {
+            line-height: 34px;
+            padding: 0;
+            text-align: center;
+        }
+    }
+    .commodityList_buttonWrap {
+        margin: 10px 0;
+    }
+    .commodityList_ModelBox {
+        > .el-form {
+            > div.row {
+                margin: 0;
+                > div {
+                    padding: 0 10px 0 0;
+                    > label {
+                        padding: 0;
+                        line-height: 34px;
+                    }
+                    > div {
+                        padding: 0;
+                    }
+                    > span {
+                        padding: 0;
+                        text-align: center;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+    }
+    .selectList {
+        .el-checkbox {
+            width: 100%;
+        }
+        .h4 {
+            padding: 0 0 10px 30px;
+            border-bottom: 1px solid #ccc;
+        }
+        .el-checkbox-group {
+            height: 200px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            > label {
+                margin-left: 15px !important;
+            }
+        }
+        > label {
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            margin-left: -15px;
+        }
+        > .confirm {
+            margin: 10px 0 20px;
+        }
+    }
+}
+
+.commoidityList_export {
+    .el-dialog__body {
+        .el-table {
+            .el-table__header-wrapper {
+                tr {
+                    th {
+                        min-width: 120px !important;
+                        width: 120px !important;
+                        > div {
+                            width: 100% !important;
+                            padding: 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*滑动效果*/
+.selectList {
+    position: fixed;
+    right: 15px;
+    overflow: hidden;
+    z-index: 110;
+    top: 245px;
+}
+
+.selectionList {
+    width: 300px;
+    border: 1px #ccc solid;
+    display: block;
+    transform: translateX(0);
+    background: #fff;
+}
+
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+    transform: translateX(300px);
+    opacity: 0;
+}
+
+.selectionList .checkbox {
+    padding-left: 5rem;
+}
+
+.myDiv {
+    height: 36px;
+}
+
+.myBut {
+    margin-top: -1px;
+}
+
+.commodityList_paddingNone {
+    padding-left: 5px;
+}
+
+.commodityList_margin {
+    margin-left: -22px;
+}
+
+.commityList_tableImgShow {
+    width: 50px;
+    height: 50px;
+}
+
+.commityList_tableImgDisplay {
+    display: block !important;
+}
+
+.commodityList_arrowUp {
+    transform: rotate(0deg);
+    transition: all .3s;
+}
+
+.commodityList_arrowDown {
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+
+.commodityList_sort {
+    margin-left: 10px;
+    cursor: pointer;
+}

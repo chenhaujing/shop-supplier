@@ -1,0 +1,226 @@
+.unSettlementList_wrap {
+    min-width: 1500px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+/*.supplierInfoList_wrap {*/
+    /*min-width: 1500px;*/
+/*}*/
+
+
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    background: #ddd;
+}
+
+.check {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background: #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+.shopper_name {
+    margin-left: -0.1rem;
+}
+
+/*.supplierList_input {*/
+    /*position: absolute;*/
+    /*top: 4%;*/
+    /*left: 80%;*/
+    /*height: 98%;*/
+/*}*/
+
+/*.supplierList_supperSearch {*/
+    /*cursor: pointer;*/
+    /*position: absolute;*/
+    /*top: 0.8rem;*/
+    /*right: 50%;*/
+    /*font-size: 1.5rem;*/
+    /*color: #333333;*/
+/*}*/
+
+/*.supplierList_shopper {*/
+    /*cursor: pointer;*/
+    /*position: absolute;*/
+    /*top: 0.8rem;*/
+    /*right: 50%;*/
+    /*font-size: 1.5rem;*/
+    /*color: #333333;*/
+/*}*/
+
+/*.supplierList_model {*/
+    /*width: 80%;*/
+    /*height: 400px;*/
+    /*background: #FFFFFF;*/
+    /*top: 20%;*/
+    /*left: 15%;*/
+    /*position: absolute;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 3px;*/
+/*}*/
+
+/*.supplierList_model>div {*/
+    /*margin-top: 6rem;*/
+/*}*/
+
+/*.supplierList_close {*/
+    /*position: absolute;*/
+    /*top: -30rem;*/
+    /*right: -100rem;*/
+/*}*/
+
+.order {
+    cursor: pointer;
+}
+
+.UnsettlementArrowUp {
+    transform: rotate(0deg);
+    transition: all .3s;
+}
+.UnsettlementArrowDown {
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+
+
+
+
+
+
+
+
+
+/*刘述添加到style样式start*/
+
+.nav {
+    margin-left: 30px;
+}
+
+.formParent {
+    min-width: 366px;
+}
+
+.unSettlementList_crumbs {
+    margin-bottom: 48px;
+}
+
+.mySelf {
+    text-align: center;
+}
+
+
+
+.v-select-page {
+    margin-bottom: 10px;
+}
+
+.v-select-page>span {
+    line-height: 30px;
+}
+
+.v-select-page>a {
+    margin-left: 10px;
+}
+
+.secondaryMenu {
+    border: 1px solid #ccc;
+    border-top: 1px solid white;
+    width: 100%;
+    margin: -1px 0;
+    padding: 10px 0;
+}
+
+
+
+.form-control.pageSelect {
+    margin-bottom: 12px;
+}
+
+
+.mySelf>thead>tr>th {
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+
+
+.v-pagination>.checkNumber {
+    margin-bottom: 12px;
+}
+
+.v-pagination>.checkNumber>select {
+    margin-bottom: 0;
+}
+
+
+.unSettlementList_myRow {
+    background: #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+
+.unSettlementList_myRow>div>label {
+    padding: 0 10px 0 0;
+    line-height: 36px;
+    text-align: right;
+}
+
+.unSettlementList_myRow>div>div {
+    padding: 0;
+}
+
+.unSettlementList_myRow>div>span {
+    padding: 0;
+    text-align: center;
+    line-height: 36px;
+}
+
+.unSettlementList_table {
+    margin-bottom: 0!important;
+}
+
+.unSettlementList_table>thead>tr>th {
+    text-align: center;
+}
+
+.unSettlementList_table>tbody>tr>td {
+    text-align: center;
+}
+.unSettlementList_table>tbody>tr>td>a {
+   display: block;
+}
+.unSettlementList_table>tbody>tr>td>div{
+    display: block;
+}
+.unSettlementList_myRow>div>p {
+    line-height: 36px;
+    margin: 0;
+}
+
+.unSettlementList .v-pagination {
+    margin-left: 0!important;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
